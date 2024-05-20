@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "ethers": "5.7.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "solc": "0.8.7-fixed",
+    "web3": "^4.8.0"
+  },
+  "scripts": {
+    "compile": "yarn solcjs --abi --bin --include-path node_modules/ --base-path .-o. scs.sol"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.3"
+  }
+}
