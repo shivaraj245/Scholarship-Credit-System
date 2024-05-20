@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  ;
+}
+
+
+.register-form {
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.form-field i {
+    position: relative;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 5px ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button
+{
+   
+    border-color: darkblue;
+    border-radius: 12px;
+    width: 100px;
+    height: 40px ;
+    align-self: start;
+
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.form-container {
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+button[type="submit"] {
+    width: 100%;
+    background-color: #060f4e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added margin below the button */
+}
+
+.action-buttons {
+    margin-right: 200px;
+    text-align: justify;
+   
+}
+
+.action-buttons button {
+    margin-right: 10px;
+    border-color: darkblue;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    height: 40px ;
+    cursor: pointer;
+    align-content: normal;
+}
+
+.hidden {
+    display: none;
+}
+.container {
+    display: block;
+    margin-bottom: 20px;
+}
+h2{
+    color: #060f4e;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap value as needed */
+  }
